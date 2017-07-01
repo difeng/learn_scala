@@ -11,5 +11,8 @@ object Exercise_1 {
     val map = Map("smartisan phone" -> 2300,"mac pro" -> 12000,"kindle" -> 1000)
     val afterDiscountMap = for((k,v) <- map) yield(k,v * 0.9)
     println(afterDiscountMap)
+
+
+
   }
 }
