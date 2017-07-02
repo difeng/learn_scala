@@ -3,6 +3,8 @@ package chapter8
 import Exercise_1.BankAccount
 /**
   * Created by difeng on 2017/7/1.
+  * 扩展前一个练习的BankAccount类，新类SavingsAccount每个月都有利息产生(earnMonthlyInterest方法被调用)，并且有每月三次免手续费的存款或取款。
+  * 在earnMonthlyInterest方法中重置交易次数
   *
   */
 object Exercise_2 {
