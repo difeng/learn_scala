@@ -34,17 +34,19 @@ object Exercise_4 {
     }
 
     def description: String = {
-      items.map(x => x.description).mkString(",")
+      items.groupBy(_.description).map(x => x._1 + ",num:" + x._2.size).mkString("\n")
     }
 
   }
 
   def main(args: Array[String]): Unit = {
     val item = new SimpleItem(12,"Item")
+    val item1 = new SimpleItem(12,"Item1")
     println(item.price)
     val boudle = new Boudle()
     boudle.addItem(item)
     boudle.addItem(item)
+    boudle.addItem(item1)
     println(boudle.price)
     println(boudle.description)
 
