@@ -4,3 +4,5 @@
   * [Merge sort](https://github.com/difeng/learn_scala/blob/master/src/main/scala/sorts/MergeSort.scala)
   * [Quick sort](https://github.com/difeng/learn_scala/blob/master/src/main/scala/sorts/QuickSort.scala)
   * [Bubble sort](https://github.com/difeng/learn_scala/blob/master/src/main/scala/sorts/BubbleSort.scala)
+  * [Insertion sort](https://github.com/difeng/learn_scala/blob/master/src/main/scala/sorts/InsertionSort.scala)
+  * [Selection sort](https://github.com/difeng/learn_scala/blob/master/src/main/scala/sorts/SelectionSort.scala)
