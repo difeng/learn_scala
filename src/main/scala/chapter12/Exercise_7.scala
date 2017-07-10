@@ -14,7 +14,7 @@ package chapter12
   */
 object Exercise_7 extends App {
 
-  def adjustToPair(fun: (Int,Int) => Int) = (x: (Int, Int)) => fun(x._1, x._2)
+  def adjustToPair(fun: (Int,Int) => Int)(x: (Int, Int)) = fun(x._1, x._2)
 
   println(adjustToPair(_ * _)((6,7)))
 
